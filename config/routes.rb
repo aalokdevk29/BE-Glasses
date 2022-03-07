@@ -11,5 +11,6 @@ Rails.application.routes.draw do
       end
     end
   end
-
+  resources :frames, only: [:index]
+  resources :lenses, only: [:index]
 end

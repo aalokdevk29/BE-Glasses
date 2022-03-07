@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2022_03_07_101356) do
     t.text "description"
     t.integer "prescription_type"
     t.integer "lens_type"
-    t.integer "stok"
+    t.integer "stock"
     t.float "price"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

@@ -1,3 +1,3 @@
 class Frame < ApplicationRecord
-  enum status: [:Inctive, :Active]
+  enum status: [:inctive, :active]
 end

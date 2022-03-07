@@ -5,7 +5,7 @@ class CreateLenses < ActiveRecord::Migration[6.1]
       t.text :description
       t.integer :prescription_type
       t.integer :lens_type
-      t.integer :stok
+      t.integer :stock
       t.float :price
 
       t.timestamps
