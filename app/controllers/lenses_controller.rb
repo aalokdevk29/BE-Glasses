@@ -3,6 +3,6 @@ class LensesController < ApplicationController
 
   def index
     @lenses = Lense.all
-    render json: @lenses
+    render json: @lenses, status: 200
   end
 end

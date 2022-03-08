@@ -7,5 +7,6 @@ class User < ApplicationRecord
             length: { minimum: 6 },
             if: -> { new_record? || !password.nil? }
 
-  enum role: [:USD, :GBR, :EUR, :JOD, :JPY]
+  enum currency: [:USD, :GBR, :EUR, :JOD, :JPY]
+  enum role: [:user, :admin]
 end
